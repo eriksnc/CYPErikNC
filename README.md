@@ -4,7 +4,7 @@
 ![logo FES Aragón](FESA.jpg)
 
 
-Aquì va una **descripciòn** del *repositorio*
+Aquì va una **descripción** del *repositorio*
 - elemento 1
 - elemento 2
 - elemento 3
