@@ -1,5 +1,5 @@
-# Erik Saùl Nàjera Cortès
-## Computadoras y programaciòn grupo 1157
+# Erik Saúl Nájera Cortés
+## Computadoras y programación grupo 1157
 ## Semestre 2020-I
 ![logo FES Aragón](FESA.jpg)
 
