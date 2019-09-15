@@ -1,7 +1,9 @@
-base=int(input("ingrese la base del rectangulo:"))
-altura=int(input("ingrese la altura del rectangulo:"))
+print("Ingrese valores para el rectangulo")
+base=float(input("Base="))
+altura=float(input("Altura="))
 area=base*altura
-print ("El area del rectangulo es:",area)
+print ("Area=",area)
 perimetro=2*(base+altura)
-print("y su perimetro de:",perimetro)
+print("Perimetro=",perimetro)
+
 
