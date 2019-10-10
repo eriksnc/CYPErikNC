@@ -9,22 +9,22 @@ if(clave==12 or clave==15 or clave==18 or clave==19 or clave==23 or clave==25 or
     if(clave==12):
         costo=numin*2
         print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
-    if(clave==15):
+    elif(clave==15):
         costo=numin*2.2
         print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
-    if(clave==18):
+    elif(clave==18):
         costo=numin*4.5
         print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
-    if(clave==19):
+    elif(clave==19):
         costo=numin*3.5
         print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
-    if(clave==23):
+    elif(clave==23):
         costo=numin*6    
         print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
-    if(clave==25):
+    elif(clave==25):
         costo=numin*6
         print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
-    if(clave==29):
+    elif(clave==29):
         costo=numin*5
         print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}" )
 else:
