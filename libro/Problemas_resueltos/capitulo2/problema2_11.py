@@ -8,25 +8,22 @@ numin=int(input("\nTiempo de llamada:"))
 if(clave==12 or clave==15 or clave==18 or clave==19 or clave==23 or clave==25 or clave==29):
     if(clave==12):
         costo=numin*2
-        print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
+        
     elif(clave==15):
         costo=numin*2.2
-        print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
+        
     elif(clave==18):
         costo=numin*4.5
-        print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
+        
     elif(clave==19):
         costo=numin*3.5
-        print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
-    elif(clave==23):
+        
+    elif(clave==23 or clave==25):
         costo=numin*6    
-        print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
-    elif(clave==25):
-        costo=numin*6
-        print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}")
+        
     elif(clave==29):
         costo=numin*5
-        print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}" )
+    print(f"La llamada tuvo una duracion de {numin} min y el costo total sera de ${costo}" )
 else:
     print("La clave ingresada es erronea")
 
