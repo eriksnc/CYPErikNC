@@ -15,14 +15,21 @@ print(f"\nLista ordenada:{lista_num}\n ")
 print(f"El mayor es :{lista_num[-1]} y el menor es :{lista_num[0]}")
 archivo.close()
 
-
+print("------------------------------------------------------------------------------------------------------------------")
 
 archivo=open("numeros.txt","rt")
 n2=archivo.readlines()
 print(n2)
+for x in range(len(n2)):
+    n2[x]=str(n2[x].strip())
+print(float(n2))
 archivo.close()
+
+print("------------------------------------------------------------------------------------------------------------------")
+
 
 archivo=open("numeros.txt","rt")
 n2=archivo.readline()
 print(n2)
 archivo.close()
+
