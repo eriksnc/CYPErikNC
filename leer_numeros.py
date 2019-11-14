@@ -19,17 +19,23 @@ print("-------------------------------------------------------------------------
 
 archivo=open("numeros.txt","rt")
 n2=archivo.readlines()
-print(n2)
-for x in range(len(n2)):
-    n2[x]=str(n2[x].strip())
-print(float(n2))
-archivo.close()
 
+print(n2)
+
+lista=[]
+
+for x in n2:
+    for num in x.split(','):
+        lista.append(int(num))
+
+print("\n",lista)
+lista.sort()
+print(f"\nLista ordenada:{lista_num}\n ")
+print(f"El mayor es :{lista[-1]} y el menor es :{lista[0]}")
+
+archivo.close()
 print("------------------------------------------------------------------------------------------------------------------")
-
-
 archivo=open("numeros.txt","rt")
-n2=archivo.readline()
-print(n2)
+n3=archivo.readline()
+print(n3)               
 archivo.close()
-
