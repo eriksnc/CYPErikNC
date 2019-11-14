@@ -15,11 +15,10 @@ print(f"\nLista ordenada:{lista_num}\n ")
 print(f"El mayor es :{lista_num[-1]} y el menor es :{lista_num[0]}")
 archivo.close()
 
-print("------------------------------------------------------------------------------------------------------------------")
+print("---------------------------------------->Ejemplo de readlines<-------------------------------------")
 
 archivo=open("numeros.txt","rt")
 n2=archivo.readlines()
-
 print(n2)
 
 lista=[]
